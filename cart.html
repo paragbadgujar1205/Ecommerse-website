@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png">
     <title>Cart Items - RedStore | Ecommerse website design</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,11 +26,11 @@
                 <ul id="menuitems">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="product.html">Products</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="account.html">Account</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contactUs.html">Contact</a></li>
                 </ul>
             </nav>
+            <a href="account.html" class="icon"><i class="fa-solid fa-user"></i></a>
             <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a>
             <img src="menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
@@ -47,9 +48,10 @@
             <tr>
                 <td>
                     <div class="cart-info">
-                        <img src="buy-1.jpg" alt="">
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2hvZXN8ZW58MHx8MHx8fDA%3D"
+                            alt="">
                         <div>
-                            <p>Red Printed T-Shirt</p>
+                            <p>Sport shoes</p>
                             <small>Price $50.00</small><br>
                             <a>Remove</a>
                         </div>
@@ -63,28 +65,29 @@
                     <div class="cart-info">
                         <img src="buy-2.jpg" alt="">
                         <div>
-                            <p>Red Printed T-Shirt</p>
-                            <small>Price $50.00</small><br>
+                            <p>fancy sport shoes</p>
+                            <small>Price $60.00</small><br>
                             <a>Remove</a>
                         </div>
                     </div>
                 </td>
                 <td><input type="number" value="1"></td>
-                <td>$50.00</td>
+                <td>$60.00</td>
             </tr>
             <tr>
                 <td>
                     <div class="cart-info">
-                        <img src="buy-3.jpg" alt="">
+                        <img src="https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNob2VzfGVufDB8fDB8fHww"
+                            alt="">
                         <div>
-                            <p>Red Printed T-Shirt</p>
-                            <small>Price $50.00</small><br>
+                            <p>senakers</p>
+                            <small>Price $40.00</small><br>
                             <a>Remove</a>
                         </div>
                     </div>
                 </td>
                 <td><input type="number" value="1"></td>
-                <td>$50.00</td>
+                <td>$40.00</td>
             </tr>
         </table>
 
@@ -92,7 +95,7 @@
             <table>
                 <tr>
                     <td>Subtotale</td>
-                    <td>$50.00</td>
+                    <td>$150.00</td>
                 </tr>
                 <tr>
                     <td>Tax</td>
@@ -100,7 +103,7 @@
                 </tr>
                 <tr>
                     <td>Totale</td>
-                    <td>$80.00</td>
+                    <td>$180.00</td>
                 </tr>
             </table>
         </div>
@@ -148,6 +151,20 @@
     <script src="https://kit.fontawesome.com/23d21f763a.js" crossorigin="anonymous"></script>
 
     <!-- js for menu toggle -->
+    <Script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
+                menuitems.style.maxHeight = "200px";
+            }
+            else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </Script>
+
     <Script>
         var menuitems = document.getElementById("menuitems");
         menuitems.style.maxHeight = "0px";

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png">
     <title>RedStore | Ecommerse website design</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,11 +27,11 @@
                     <ul id="menuitems">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="product.html">Products</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="account.html">Account</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contactUs.html">Contact</a></li>
                     </ul>
                 </nav>
+                <a href="account.html" class="icon"><i class="fa-solid fa-user"></i></a>
                 <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a>
                 <img src="menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
@@ -41,7 +42,7 @@
                     <p>Success isn't always about greatness. It is about consistency.
                         Consistent<br>hard work gains success.
                         Grateness will come</p>
-                    <a href="" class="btn">Explore Now &#8594;</a>
+                    <a href="product.html" class="btn">Explore Now &#8594;</a>
                 </div>
                 <div class="col-2">
                     <img src="image1.png">
@@ -61,7 +62,8 @@
                     <img src="category-2.jpg">
                 </div>
                 <div class="col-3">
-                    <img src="category-3.jpg">
+                    <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2hvZXN8ZW58MHx8MHx8fDA%3D"
+                        height="355px">
                 </div>
             </div>
         </div>
@@ -72,8 +74,11 @@
         <h2 class="title">Featured Products</h2>
         <div class="row">
             <div class="col-4">
-               <a href="singleproduct.html"> <img src="product-1.jpg"></a>
-               <a href="singleproduct.html"><h4>Printed T-Shirt</h4></a>
+                <a href="itemInfo.html" id="singleproduct"> <img
+                        src="https://images.unsplash.com/photo-1620138546344-7b2c38516edf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fHNob2VzfGVufDB8fDB8fHww"></a>
+                <a href="singleproduct.html">
+                    <h4>Casual shoes</h4>
+                </a>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -84,8 +89,8 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="product-2.jpg">
-                <h4>Printed T-Shirt</h4>
+                <a href="itemInfo2.html"><img src="product-2.jpg"></a>
+                <h4>Sport shoes</h4>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -93,11 +98,12 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-half-o" aria-hidden="true"></i>
                 </div>
-                <p>$50.00</p>
+                <p>60.00</p>
             </div>
             <div class="col-4">
-                <img src="product-3.jpg">
-                <h4>Printed T-Shirt</h4>
+                <a href="itemInfo3.html"><img
+                        src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2hvZXN8ZW58MHx8MHx8fDA%3D"></a>
+                <h4>Sport Shoes</h4>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -105,11 +111,12 @@
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p>$50.00</p>
+                <p>$40.00</p>
             </div>
             <div class="col-4">
-                <img src="product-4.jpg">
-                <h4>Printed T-Shirt</h4>
+                <a href="itemInfo4.html"><img
+                        src="https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNob2VzfGVufDB8fDB8fHww"></a>
+                <h4>Casual shoes</h4>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -117,7 +124,7 @@
                     <i class="fa fa-star-half-o" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p>$50.00</p>
+                <p>$70.00</p>
             </div>
         </div>
 
@@ -125,7 +132,7 @@
         <div class="row">
             <div class="col-4">
                 <img src="product-5.jpg">
-                <h4>Printed T-Shirt</h4>
+                <h4>sport shoes</h4>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -133,11 +140,12 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p>$50.00</p>
+                <p>$80.00</p>
             </div>
             <div class="col-4">
-                <img src="product-6.jpg">
-                <h4>Printed T-Shirt</h4>
+                <img
+                    src="https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNob2VzfGVufDB8fDB8fHww">
+                <h4>Sneakers</h4>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -145,11 +153,12 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-half-o" aria-hidden="true"></i>
                 </div>
-                <p>$50.00</p>
+                <p>$60.00</p>
             </div>
             <div class="col-4">
-                <img src="product-7.jpg">
-                <h4>Printed T-Shirt</h4>
+                <img
+                    src="https://images.unsplash.com/photo-1512374382149-233c42b6a83b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2hvZXMlMjBpbWFnZXMlMjBmb3IlMjBlJTIwY29tbWVyc2V8ZW58MHx8MHx8fDA%3D">
+                <h4>Fancy shoes</h4>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -160,56 +169,9 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="product-8.jpg">
-                <h4>Printed T-Shirt</h4>
-                <div class="rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <p>$50.00</p>
-            </div>
-            <div class="col-4">
-                <img src="product-9.jpg">
-                <h4>Printed T-Shirt</h4>
-                <div class="rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <p>$50.00</p>
-            </div>
-            <div class="col-4">
-                <img src="product-10.jpg">
-                <h4>Printed T-Shirt</h4>
-                <div class="rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                </div>
-                <p>$50.00</p>
-            </div>
-            <div class="col-4">
-                <img src="product-11.jpg">
-                <h4>Printed T-Shirt</h4>
-                <div class="rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <p>$50.00</p>
-            </div>
-            <div class="col-4">
-                <img src="product-12.jpg">
-                <h4>Printed T-Shirt</h4>
+                <img
+                    src="https://images.unsplash.com/photo-1605408499391-6368c628ef42?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHNob2VzfGVufDB8fDB8fHww">
+                <h4>Casual sneakers</h4>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -217,143 +179,194 @@
                     <i class="fa fa-star-half-o" aria-hidden="true"></i>
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <p>$50.00</p>
+                <p>$40.00</p>
+            </div>
+            <div class="col-4">
+                <img
+                    src="https://images.unsplash.com/photo-1531310197839-ccf54634509e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHNob2VzfGVufDB8fDB8fHww">
+                <h4>Formal shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$40.00</p>
+            </div>
+            <div class="col-4">
+                <img
+                    src="https://images.unsplash.com/photo-1579338559194-a162d19bf842?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fHNob2VzfGVufDB8fDB8fHww">
+                <h4>plane sneakers</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+            <div class="col-4">
+                <img
+                    src="https://images.unsplash.com/photo-1628253747716-0c4f5c90fdda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fHNob2VzfGVufDB8fDB8fHww">
+                <h4>nike snykers</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img
+                    src="https://images.unsplash.com/photo-1597045566677-8cf032ed6634?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fHNob2VzfGVufDB8fDB8fHww">
+                <h4>fancy sneakers</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$60.00</p>
             </div>
         </div>
     </div>
-<!-- ---------------offer-------------------- -->
-<div class="offer">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-2">
-                <img src="exclusive.png" class="offer-img">
-            </div>
-            <div class="col-2">
-                <p>Exclusively Available on RedStore </p>
-                <h1>Smart Band 4</h1>
-                <small>The MI Smart Band 4 features a 39.9% larger(than Mi Band 3)
-                    Amoled color full touched display with adustubale brightness, si everything is clear
-                    as can be The MI Smart Band 4</small><br>    
-                <a href="" class="btn">Buy Now &#8594;</a>
+    <!-- ---------------offer-------------------- -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="offer.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on RedStore </p>
+                    <h1> Nike Exclusively shoes</h1>
+                    <small>
+                        The exclusive shoes by Nike are a testament to the brand's relentless pursuit of innovation, style, and performance. Crafted with meticulous attention to detail, these shoes represent the pinnacle of athletic footwear technology.</small><br>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- ------------------testinomials--------------- -->
-<div class="testinomials">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-3">
-                <i class="fa fa-quote-left" ></i>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, 
-                    nostrum ratione. Temporibus, iusto.
-                </p>
-                <div class="rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    <!-- ------------------testinomials--------------- -->
+    <div class="testinomials">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor,
+                        nostrum ratione. Temporibus, iusto.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="user-1.png">
+                    <h3>Angelina Parker</h3>
                 </div>
-                <img src="user-1.png">
-                <h3>Angelina Parker</h3>
-            </div>
-            <div class="col-3">
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, 
-                    nostrum ratione. Temporibus, iusto.
-                </p>
-                <div class="rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <div class="col-3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor,
+                        nostrum ratione. Temporibus, iusto.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="user-2.png">
+                    <h3>Steve Stark</h3>
                 </div>
-                <img src="user-2.png">
-                <h3>Steve Stark</h3>
-            </div>
-            <div class="col-3">
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, 
-                    nostrum ratione. Temporibus, iusto.
-                </p>
-                <div class="rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <div class="col-3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor,
+                        nostrum ratione. Temporibus, iusto.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="user-3.png">
+                    <h3>karal Joe</h3>
                 </div>
-                <img src="user-3.png">
-                <h3>karal Joe</h3>
             </div>
         </div>
     </div>
-</div>
 
-<!-- -----------------Brands------------------------------- -->
-<div class="brands">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-5">
-                <img src="logo-coca-cola.png">
-            </div>
-            <div class="col-5">
-                <img src="logo-oppo.png">
-            </div>
-            <div class="col-5">
-                <img src="logo-godrej.png">
-            </div>
-            <div class="col-5">
-                <img src="logo-philips.png">
-            </div>
-            <div class="col-5">
-                <img src="logo-paypal.png">
+    <!-- -----------------Brands------------------------------- -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="img1.png">
+                </div>
+                <div class="col-5">
+                    <img src="img2.png">
+                </div>
+                <div class="col-5">
+                    <img src="img3.png">
+                </div>
+                <div class="col-5">
+                    <img src="img4.png">
+                </div>
+                <div class="col-5">
+                    <img src="img5.png">
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- ------------------footer--------------------- -->
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-col-1">
-                <h3>Download Our App</h3>
-                <p>Download Our App for Android and IOS</p>
-                <img src="app-store.png" width="100px" class="footer-logo">
-                <img src="play-store.png" width="100px" class="footer-logo">
+    <!-- ------------------footer--------------------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download Our App for Android and IOS</p>
+                    <img src="app-store.png" width="100px" class="footer-logo">
+                    <img src="play-store.png" width="100px" class="footer-logo">
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo-white.png" alt="">
+                    <p>Our Purpose Make To Sustanbly Plesure and Benifits Of Sport<br> Accesible To The Many </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Userful Links</h3>
+                    <ul>
+                        <li>coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>You Tube</li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-col-2">
-                <img src="logo-white.png" alt="">
-                <p>Our Purpose Make To Sustanbly Plesure and Benifits Of Sport<br> Accesible  To The Many </p>
-            </div>
-            <div class="footer-col-3">
-                <h3>Userful Links</h3>
-                <ul>
-                    <li>coupons</li>
-                    <li>Blog Post</li>
-                    <li>Return Policy</li>
-                    <li>Join Affilate</li>
-                </ul>
-            </div>
-            <div class="footer-col-4">
-                <h3>Follow Us</h3>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Instagram</li>
-                    <li>You Tube</li>
-                </ul>
-            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Parag Badgujar</p>
         </div>
-        <hr>
-        <p class="copyright">Copyright 2023 - Parag Badgujar</p>
     </div>
-</div>
 
 
 
@@ -362,14 +375,14 @@
     <!-- js for menu toggle -->
     <Script>
         var menuitems = document.getElementById("menuitems");
-        menuitems.style.maxHeight = "0px" ;
+        menuitems.style.maxHeight = "0px";
 
-        function menutoggle(){
-            if(menuitems.style.maxHeight == "0px" ){
-                menuitems.style.maxHeight = "200px" ;
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
+                menuitems.style.maxHeight = "200px";
             }
-            else{
-                menuitems.style.maxHeight = "0px" ;
+            else {
+                menuitems.style.maxHeight = "0px";
             }
         }
     </Script>

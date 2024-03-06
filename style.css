@@ -11,7 +11,11 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    padding: 20px;
+    /* padding: 20px; */
+    height: 100px;
+}
+.logo a img{
+    height: 100%;
 }
 
 nav {
@@ -36,6 +40,10 @@ a {
 }
 a:hover{
     color: #ff523b;
+}
+.icon{
+    font-size: 23px;
+    margin-right: 10px;
 }
 
 p {
@@ -121,12 +129,14 @@ p {
     flex-basis: 25%;
     padding: 10px;
     max-width: 200px;
+    height: 250px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
 
 .col-4 img {
     width: 100%;
+    height: 100%;
 }
 
 .title {
@@ -641,4 +651,8 @@ form a{
 .cart-info p{
     display: none;
 }
+}
+
+nav ul li a i{
+    font-size: 20px;
 }

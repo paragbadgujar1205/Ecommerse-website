@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png">
+    <title>About Us | Redstore Ecommerse website </title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your stylesheet -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            /* background-color: #333; */
+
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .about-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-section h2 {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .about-section p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="logo.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contactUs.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="account.html" class="icon"><i class="fa-solid fa-user"></i></a>
+                <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a>
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <header>
+                <h1>Welcome to Your Shoe Shop</h1>
+            </header>
+
+            <main>
+                <section class="about-section">
+                    <h2>About Our Store</h2>
+                    <p>Welcome to Your Shoe Shop, where we're passionate about providing you with the latest trends in
+                        footwear. With a wide selection of shoes for every occasion, we strive to offer our customers
+                        the best quality and style at affordable prices.</p>
+                    <p>Our mission is to help you step out in confidence and style, whether you're hitting the streets
+                        or strutting down the runway. From classic sneakers to elegant heels, we've got something for
+                        everyone.</p>
+                    <p>At Your Shoe Shop, we believe that the perfect pair of shoes can elevate any outfit and express
+                        your unique personality. That's why we're committed to bringing you the hottest styles from top
+                        brands, ensuring you'll always find something that speaks to you.</p>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <div class="testinomials">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor,
+                        nostrum ratione. Temporibus, iusto.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="user-1.png">
+                    <h3>Angelina Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor,
+                        nostrum ratione. Temporibus, iusto.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="user-2.png">
+                    <h3>Steve Stark</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor,
+                        nostrum ratione. Temporibus, iusto.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="user-3.png">
+                    <h3>karal Joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="brands">
+        <div class="small-container">
+            <header>
+                <h1 style="color: #FF523B; margin-bottom: 30px;">Our Associate Brands</h1>
+            </header>
+            <div class="row">
+                <div class="col-5">
+                    <img src="img1.png">
+                </div>
+                <div class="col-5">
+                    <img src="img2.png">
+                </div>
+                <div class="col-5">
+                    <img src="img3.png">
+                </div>
+                <div class="col-5">
+                    <img src="img4.png">
+                </div>
+                <div class="col-5">
+                    <img src="img5.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download Our App for Android and IOS</p>
+                    <img src="app-store.png" width="100px" class="footer-logo">
+                    <img src="play-store.png" width="100px" class="footer-logo">
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo-white.png" alt="">
+                    <p>Our Purpose Make To Sustanbly Plesure and Benifits Of Sport<br> Accesible To The Many </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Userful Links</h3>
+                    <ul>
+                        <li>coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>You Tube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Parag Badgujar</p>
+        </div>
+    </div>
+
+
+
+    <Script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
+                menuitems.style.maxHeight = "200px";
+            }
+            else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </Script>
+    <script src="https://kit.fontawesome.com/23d21f763a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
